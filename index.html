@@ -122,6 +122,19 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	$('ul.nav li.dropdown').hover(function() {
+	  $(this).find('.dropdown-menu').stop(true, true).delay(10).fadeIn(500);
+	}, function() {
+	  $(this).find('.dropdown-menu').stop(true, true).delay(10).fadeOut(500);
+	});
+
+	$('ul.cover-nav li.dropdown').hover(function() {
+	  $(this).find('.dropdown-menu').stop(true, true).delay(10).fadeIn(500);
+	}, function() {
+	  $(this).find('.dropdown-menu').stop(true, true).delay(10).fadeOut(500);
+	});
 	
+</script>
 </body>
 </html>
