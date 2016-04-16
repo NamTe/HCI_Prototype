@@ -204,6 +204,7 @@ textarea {
 	text-decoration: none;
 	list-style: none;
 	padding: 0px;
+	overflow: hidden;
 }
 
 .news-detail h3
@@ -224,6 +225,7 @@ textarea {
 .news-detail-item
 {
 	padding: 0px;
+	overflow: hidden;
 }
 
 .news-detail-items
@@ -231,4 +233,45 @@ textarea {
 	color: #888;
 	font-size: 14px;
 	line-height: 24px;
+	overflow: hidden;
+}
+
+#myCarousel
+{
+	margin-top:-10px;
+	height: 250px;
+	margin-bottom: 0px;
+	overflow: hidden;
+	margin-bottom: -25px;
+}
+
+#myCarousel img
+{
+	width: 100%;
+	height: 250px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+
+.block
+{
+	overflow: hidden;
+}
+
+.panel-heading
+{
+	margin-bottom: -5px;
+}
+
+
+.suggested-places img
+{
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 2px;
+}
+
+.suggested-places
+{
+	margin-bottom: -25px;
 }
